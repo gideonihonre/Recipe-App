@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0% 20%;
+  background-color: bisque;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgb(rgb(75, 75, 75) green, blue);
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+}
+h4 {
+  font-size: 1.5rem;
+  color: rgb(rgb(75, 75, 75) green, blue);
+  line-height: 2.5rem;
+  margin: 2rem 0rem;
+}
+
+a {
+  color: rgb(rgb(75, 75, 75), green, blue);
+}
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+svg {
+  color: white;
+  font-size: 0.5rem;
+}
+.active {
+  background: linear-gradient(to right, #f27121, #e94057);
+
+  svg {
+    color: white;
+  }
+  h4 {
+    color: white;
+  }
+}
+.maindiv {
+  height: 1000px;
+  width: 1200px;
+}
+ol {
+  margin-top: 3rem;
+}
+.svg2 {
+  font-size: 2rem;
+}
